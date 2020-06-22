@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/BinaryPartitionTree"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Image"/>
+	<classpathentry kind="lib" path="lib/sis-jhdf5/lib/args4j-2.33.jar"/>
+	<classpathentry kind="lib" path="lib/sis-jhdf5/lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/sis-jhdf5/lib/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="lib/sis-jhdf5/lib/sis-base-18.09.0.jar"/>
+	<classpathentry kind="lib" path="lib/sis-jhdf5/lib/sis-jhdf5-19.04.0.jar"/>
+	<classpathentry kind="lib" path="lib/sis-jhdf5/lib/sis-jhdf5-h5ar-cli-19.04.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
