@@ -1,0 +1,73 @@
+General Information:
+  build.txt
+    The build information of this distribution in human readable form.
+  version.txt
+    The version information of this distribution in machine readable form.
+  CONTENT
+    This file.
+  COPYING
+    Copyright notice of the JHDF5 and the SIS base libraries.
+  COPYING-hdf5
+    Copyright notice of the HDF5 library.
+  COPYING-commons
+    Copyright notice of the Apache "Commons IO" and "Commons Lang3" libraries.
+  COPYING-args4j
+    Copyright notice of the CISD args4j library.
+  LICENSE
+    The Apache Sofware License 2.0.
+
+Documentation:
+  doc/sis-jhdf5-javadoc-<VERSION>.jar
+    The Javadoc of JHDF5.
+  
+  doc/sis-jhdf5-examples-sources-<VERSION>.jar
+    Simple example programs showing some features of JHDF5.
+
+  doc/JHDF5-<VERSION>.pdf
+     A simple (and incomplete) introduction into JHDF5 (in Portable Document Format).
+
+  doc/JHDF5-<VERSION>.odt
+     A simple (and incomplete) introduction into JHDF5 (in OpenDocument Text Format).
+
+Source Code:
+  sources/jhdf5-sources-<VERSION>.jar
+    The source code of jhdf5.
+  sources/sis-base-18.08.0-sources.jar
+    The source code of the SIS base library.
+  sources/cisd-args4j-9.11.2-sources.jar
+    The source code of the CISD args4j library.
+  sources/commons-io-2.6-sources.jar
+    The source code of the Apache "Commons IO" library.
+  sources/commons-lang3-3.7-sources.jar
+    The source code of the Apache "Commons Lang3" library.
+  
+Libraries:
+  lib/sis-jhdf5-<VERSION>.jar: 
+    The Java class files of the JHDF5 library and the hdf5 native libraries. 
+    Requires commons-io-2.6.jar, commons-lang3-3.7.jar and sis-base-18.08.0.jar on the class path. 
+  lib/sis-jhdf5-h5ar-cli-<VERSION>.jar: 
+    The Java class files of the h5ar archiver command line interface application.
+    Requires sis-jhdf5-<VERSION> and all its dependencies, as well as  cisd-args4j-9.11.2 
+    on the class path. 
+  lib/sis-base-18.08.0.jar
+    The Java class files of the SIS base library. Requires commons-io-2.6.jar and
+    commons-lang3-3.7.jar on the class path.
+  lib/cisd-args4j-9.11.2.jar
+    The Java class files of the CISD args4j library.
+  lib/commons-lang3-3.7.jar
+    The Java class files of the Apache "Commons Lang3" library.
+  lib/commons-io-2.6.jar
+    The Java class files of the Apache "Commons IO" library.
+  lib/native:
+    The native libraries as files in folders jhdf5 and unix. In order to use them ensure that you 
+    point the Java property native.libpath to the root of this hierarchy,
+    e.g.: "-Dnative.libpath=/home/joe/lib/native"
+
+Wrapper Executables:
+  bin/h5ar.sh:
+    A script that calls h5ar by invoking the JRE with appropriate parameters. Suitable for being 
+    symlinked to e.g. /usr/local/bin
+  bin/h5ar.bar:
+    Example script on how to most easily invoke h5ar on Windows. Needs to be adapted to have the 
+    fully qualified path to the jar file.
+

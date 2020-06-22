@@ -1,0 +1,3 @@
+Version: 19.04.0
+GIT Revision SHA1 Hash: 736faa8861a734ecceabee3d298b753feb9cbb67
+GIT Revision Date: 2019-04-28T23:51:34+02
