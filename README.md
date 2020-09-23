@@ -7,6 +7,18 @@ Jimmy Francky Randrianasoa, Pierre Cettour-Janet, Camille Kurtz, Éric Desjardin
 ## Abstract
 The binary partition tree (BPT) allows for the hierarchical representation of images in a multiscale way, by providing a tree of nodes corresponding to image regions. In particular, cuts of a BPT can be interpreted as segmentations of the associated image. Building the BPT of an image then constitutes a relevant preliminary step for optimization-based segmentation methods. A wide literature has been devoted to the construction of BPTs, and their involvement in such segmentation tasks. Comparatively, there exist few works dedicated to evaluate the quality of BPTs, i.e. their ability to allow further segmentation methods to compute good results. We propose such a framework for evaluating the quality of a BPT with respect to the object segmentation problem, i.e. the segmentation of one or several objects from an image. This framework is supervised, since the notion of segmentation quality is not only depending on the application but also on the user’s objectives, expressed via the chosen ground-truth and quality metric. We develop two sides within this framework. First, we propose an intrinsic quality analysis, that relies on the structural coherence of the BPT with respect to ground-truth. More precisely, we evaluate to what extent the BPT structure is well-matching such examples, in a set / combinatorial fashion. Second, we propose an extrinsic analysis, by allowing the user to assess the quality of a BPT based on chosen metrics that correspond to the desired properties of the subsequent segmentation. In particular, we evaluate to what extent a BPT can provide good results with respect to such metrics whereas handling the trade-off with the cardinality of the cuts.
 
+## Illustrations
+
+![](fig1.png)
+
+---
+
+![](fig2.png)
+
+---
+
+![](fig3.png)
+
 ## Usage
 Evaluating hierarchical tree stuctures such as : </br>
 &bull; [BPT](https://github.com/yonmi/BinaryPartitionTree/blob/master/src/standard/sequential/BPT.java):</b> Binary Partition Tree </br>
