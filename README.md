@@ -66,3 +66,7 @@ Evaluating hierarchical tree stuctures such as : </br>
     author = "Jimmy Francky Randrianasoa and Pierre Cettour-Janet and Camille Kurtz and Éric Desjardin and Pierre Gançarski and Nathalie Bednarek and François    Rousseau and Nicolas Passat",
     }
 
+## Third-party library
+This project bundles a third-party library:
+- [sis-jhdf5](http://svnsis.ethz.ch/repos/cisd/ivy-repository/trunk/sis/sis-jhdf5/14.12.1/) helps to manage <b>HDF5</b> file formats - [Apache License 2.0](
+http://www.apache.org/licenses/LICENSE-2.0)
